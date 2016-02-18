@@ -72,5 +72,4 @@ RUN apt-get purge -y \
 USER opsim
 ADD ./startup_nersc.sh /home/opsim/startup.sh
 
-# Run this interactively
-###CMD ["/bin/bash", "/home/opsim/startup.sh"]
+
