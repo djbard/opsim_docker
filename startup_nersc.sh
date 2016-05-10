@@ -31,7 +31,7 @@ git checkout $CONFIG_SHA1
 STARTUP_COMMENT=$(git log -n 1 --pretty=format:%s)
 
 ## make this a very short run
-sed -i '/nRun = 10.0/c\nRun = 0.01'  /home/opsim/scratch/conf/survey/LSST.conf
+##sed -i '/nRun = 10.0/c\nRun = 0.01'  /home/opsim/scratch/conf/survey/LSST.conf
 
 # Since container is fresh, sessionID will always be 1000
 oldfiletag="${HOSTNAME}_1000"
